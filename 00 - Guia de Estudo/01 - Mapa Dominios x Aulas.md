@@ -4,6 +4,8 @@
 > [Guia oficial (PDF)](https://www.databricks.com/sites/default/files/2026-10/Databricks-Certified-Data-Engineer-Associate-Exam-Guide-August-2026.pdf)
 > Confira o guia duas semanas antes da prova, a Databricks atualiza sem aviso.
 
+Resumo D1: [`Resumos/D1`](../Resumos/D1%20-%20Databricks%20Intelligence%20Platform.md) · Questões por domínio: [`Questoes/`](../Questoes/) · Simulado: [`Questoes/Simulados/`](../Questoes/Simulados/)
+
 Legenda: ✅ coberto pelo curso · 🟡 parcial · ❌ não coberto (estudar pelo resumo em `Resumos/`)
 
 ---
@@ -22,9 +24,9 @@ Legenda: ✅ coberto pelo curso · 🟡 parcial · ❌ não coberto (estudar pel
 | Padrões de ingestão: batch, streaming, incremental, upload de arquivos locais, Lakeflow Connect | 🟡 | `07/1 - Ingestão Incremental`, `07/2 - Structured Streaming` |
 | COPY INTO para carga incremental do storage (ADLS/S3/GCS) em tabelas UC | ✅ | `07/1 - Ingestão Incremental` |
 | Auto Loader com schema enforcement/evolution, directory listing x file notification | ✅ | `07/2` e `07/3 - Auto Loader na prática` |
-| Configurar Lakeflow Connect (conectores standard e managed) | ❌ | Resumo D2 (a fazer) |
-| JDBC/ODBC e REST em notebooks, orquestrados por Jobs | ❌ | Resumo D2 (a fazer) |
-| Escolher entre Auto Loader, Lakeflow Connect, partner connectors etc. | 🟡 | Resumo D2 (a fazer) |
+| Configurar Lakeflow Connect (conectores standard e managed) | ❌ | [`Resumos/D2`](../Resumos/D2%20-%20Data%20Ingestion%20and%20Loading.md) |
+| JDBC/ODBC e REST em notebooks, orquestrados por Jobs | ❌ | [`Resumos/D2`](../Resumos/D2%20-%20Data%20Ingestion%20and%20Loading.md) |
+| Escolher entre Auto Loader, Lakeflow Connect, partner connectors etc. | 🟡 | [`Resumos/D2`](../Resumos/D2%20-%20Data%20Ingestion%20and%20Loading.md) |
 | Ingerir semi-estruturados e não estruturados (JSON, nested) | ✅ | `06/04-07 - Ingestão JSON/CSV/TSV/XML`, `06/08 - Arrays` |
 
 ## Domínio 3 — Data Transformation and Modeling (22%)
@@ -32,10 +34,10 @@ Legenda: ✅ coberto pelo curso · 🟡 parcial · ❌ não coberto (estudar pel
 | Objetivo do guia | Cobertura | Onde estudar |
 |---|---|---|
 | Limpeza Bronze → Silver (nulos, tipos) com PySpark/SQL | ✅ | `06/01 - Medalhão`, `06/09 - Silver Customers` |
-| Joins: inner, left, broadcast, múltiplas chaves, cross, union, union all | ❌ | Resumo D3 (a fazer) |
+| Joins: inner, left, broadcast, múltiplas chaves, cross, union, union all | ❌ | [`Resumos/D3`](../Resumos/D3%20-%20Data%20Transformation%20and%20Modeling.md) |
 | Manipular colunas/linhas: add, drop, split, rename, filter, explode | ✅ | `06/08 - Arrays` |
-| Deduplicação e agregações (count, approx_count_distinct, mean/summary) | 🟡 | Resumo D3 (a fazer) |
-| Parâmetros de tuning (`shuffle.partitions`, `autoBroadcastJoinThreshold`, memória) | ❌ | Resumo D3 (a fazer) |
+| Deduplicação e agregações (count, approx_count_distinct, mean/summary) | 🟡 | [`Resumos/D3`](../Resumos/D3%20-%20Data%20Transformation%20and%20Modeling.md) |
+| Parâmetros de tuning (`shuffle.partitions`, `autoBroadcastJoinThreshold`, memória) | ❌ | [`Resumos/D3`](../Resumos/D3%20-%20Data%20Transformation%20and%20Modeling.md) |
 | Objetos Gold: materialized views, views, streaming tables, tabelas | ✅ | `05/9 - Views`, `08/1-2 - DLT` |
 | Data quality nas camadas Silver/Gold | ✅ | `08/1 - Expectations`, `05/8 - Constraints` |
 | (Extra) DDL/DML Delta: CTAS, MERGE, CLONE, Time Travel | ✅ | `05/3-8` |
@@ -45,10 +47,10 @@ Legenda: ✅ coberto pelo curso · 🟡 parcial · ❌ não coberto (estudar pel
 
 | Objetivo do guia | Cobertura | Onde estudar |
 |---|---|---|
-| Control flow: retries, If/else, For each | 🟡 | `09/1 - Introdução ao Jobs` (Run if) — completar no Resumo D4 |
+| Control flow: retries, If/else, For each | 🟡 | `09/1 - Introdução ao Jobs` (Run if) — completar em [`Resumos/D4`](../Resumos/D4%20-%20Working%20with%20Lakeflow%20Jobs.md) |
 | Tasks comuns (notebook, SQL, dashboard, pipeline) e dependências no DAG | ✅ | `09/1-4` |
-| Schedules e triggers: scheduled, file arrival, table update | 🟡 | `09/1` — completar no Resumo D4 |
-| Trigger por tempo x trigger por dado | ❌ | Resumo D4 (a fazer) |
+| Schedules e triggers: scheduled, file arrival, table update | 🟡 | `09/1` — completar em [`Resumos/D4`](../Resumos/D4%20-%20Working%20with%20Lakeflow%20Jobs.md) |
+| Trigger por tempo x trigger por dado | ❌ | [`Resumos/D4`](../Resumos/D4%20-%20Working%20with%20Lakeflow%20Jobs.md) |
 
 ## Domínio 5 — Implementing CI/CD (10%)
 
@@ -64,19 +66,19 @@ Legenda: ✅ coberto pelo curso · 🟡 parcial · ❌ não coberto (estudar pel
 | Objetivo do guia | Cobertura | Onde estudar |
 |---|---|---|
 | Tendência de performance no run history dos Jobs | ❌ | [`Resumos/D6`](../Resumos/D6%20-%20Troubleshooting%20Monitoring%20Optimization.md) |
-| Monitorar saúde do pipeline na UI de Jobs (status, DAG, falhas) | 🟡 | `09/1` + Resumo D6 |
-| Gargalos no Spark UI: skew, shuffle, spill | ❌ | Resumo D6 |
-| Liquid Clustering e Predictive Optimization | 🟡 | `05/7 - Otimização` + Resumo D6 |
-| Falhas de startup de cluster, conflito de bibliotecas, OOM | ❌ | Resumo D6 |
+| Monitorar saúde do pipeline na UI de Jobs (status, DAG, falhas) | 🟡 | `09/1` + [`Resumos/D6`](../Resumos/D6%20-%20Troubleshooting%20Monitoring%20Optimization.md) |
+| Gargalos no Spark UI: skew, shuffle, spill | ❌ | [`Resumos/D6`](../Resumos/D6%20-%20Troubleshooting%20Monitoring%20Optimization.md) |
+| Liquid Clustering e Predictive Optimization | 🟡 | `05/7 - Otimização` + [`Resumos/D6`](../Resumos/D6%20-%20Troubleshooting%20Monitoring%20Optimization.md) |
+| Falhas de startup de cluster, conflito de bibliotecas, OOM | ❌ | [`Resumos/D6`](../Resumos/D6%20-%20Troubleshooting%20Monitoring%20Optimization.md) |
 
 ## Domínio 7 — Governance and Security (15%)
 
 | Objetivo do guia | Cobertura | Onde estudar |
 |---|---|---|
-| Managed x External: criar, alterar, excluir, **converter** | 🟡 | `05/2 - Managed vs External` — conversão no Resumo D7 |
+| Managed x External: criar, alterar, excluir, **converter** | 🟡 | `05/2 - Managed vs External` — conversão em [`Resumos/D7`](../Resumos/D7%20-%20Governance%20and%20Security.md) |
 | GRANT / REVOKE / DENY para usuários, grupos e service principals | ✅ | `11/1 - Governança` |
-| Column masking e row-level security | ❌ | Resumo D7 (a fazer) |
-| ABAC (políticas por atributo/tag) | ❌ | Resumo D7 (a fazer) |
+| Column masking e row-level security | ❌ | [`Resumos/D7`](../Resumos/D7%20-%20Governance%20and%20Security.md) |
+| ABAC (políticas por atributo/tag) | ❌ | [`Resumos/D7`](../Resumos/D7%20-%20Governance%20and%20Security.md) |
 
 ---
 

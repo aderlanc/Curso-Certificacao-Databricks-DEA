@@ -40,9 +40,9 @@ Ritmo sugerido: **6 semanas, ~1h por dia**. Ajuste conforme a sua agenda.
 
 ## Semana 6 — Simulados e revisão
 - [ ] Aula `12 - Simulado Certificação`
-- [ ] Simulado 01 (45 questões, 90 min cronometrados)
+- [ ] [Simulado 01](../Questoes/Simulados/Simulado%2001%20-%20Questoes.md) (45 questões, 90 min cronometrados) e [gabarito](../Questoes/Simulados/Simulado%2001%20-%20Gabarito.md)
 - [ ] Revisar os temas de "Meus erros"
-- [ ] Simulado 02 — meta: **≥ 80%** antes de agendar a prova
+- [ ] Simulado 02 (em breve) — meta: **≥ 80%** antes de agendar a prova
 - [ ] Reler o [Exam Guide oficial](https://www.databricks.com/sites/default/files/2026-10/Databricks-Certified-Data-Engineer-Associate-Exam-Guide-August-2026.pdf) e o mapa `01 - Mapa Dominios x Aulas.md`
 
 ---
