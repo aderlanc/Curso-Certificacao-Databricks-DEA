@@ -16,7 +16,7 @@ A certificação valida a capacidade de utilizar a **Databricks Data Intelligenc
 
 | Pasta | Tópico | Descrição |
 |-------|--------|-----------|
-| `00` | **Guia de Estudo** | Trilha de estudo e mapa domínio x aula (comece aqui) |
+| `00` | **Guia de Estudo** | Trilha, mapa domínio x aula, método de preparação com IA, laboratórios e diário (comece aqui) |
 | `01` | Introdução ao Curso | Boas vindas e introdução |
 | `02` | Criando Conta Free na Azure |Criando conta Azure com bonus de $200 |
 | `03` | Componentes Databricks | Arquitectura, clusters, workspaces |
@@ -91,10 +91,17 @@ Cada pasta contém:
 
 ## 📖 Como Usar
 
-1. **Estudo sequencial** — Seguir a numeração das pastas (01 → 12)
-2. **Revisão por tópico** — Focar em áreas específicas de dificuldade
-3. **Prática hands-on** — Executar notebooks no ambiente Azure Databricks
-4. **Revisar Exam Guide** — Identificar gaps no conhecimento
+O estudo segue o **método oficial da Databricks para preparação com IA** ("AI Prep Guide: Any Databricks Certification"), adaptado à DEA:
+
+1. **Prepare o terreno e a IA** — [`03 - Preparacao com IA`](00%20-%20Guia%20de%20Estudo/03%20-%20Preparacao%20com%20IA.md): prompt de abertura e tabela de nomes renomeados (DLT → Lakeflow Spark Declarative Pipelines etc.)
+2. **Diagnostique antes de estudar** — faça as questões de todos os domínios em `Questoes/` e registre no [`05 - Diario de Estudo`](00%20-%20Guia%20de%20Estudo/05%20-%20Diario%20de%20Estudo.md)
+3. **Aprofunde os domínios fracos** — aulas (pelo [mapa](00%20-%20Guia%20de%20Estudo/01%20-%20Mapa%20Dominios%20x%20Aulas.md)) + `Resumos/`
+4. **Pratique no workspace** — os 9 [`04 - Laboratorios Hands-on`](00%20-%20Guia%20de%20Estudo/04%20-%20Laboratorios%20Hands-on.md) (só ler não aprova)
+5. **Simule e repare** — `Questoes/Simulados/` e o prompt de reparo em cada erro
+
+O calendário de 6 semanas está na [`02 - Trilha de Estudo`](00%20-%20Guia%20de%20Estudo/02%20-%20Trilha%20de%20Estudo.md).
+
+> ⚠️ IA erra sobre produtos Databricks. Confirme tudo no Exam Guide e em [docs.databricks.com](https://docs.databricks.com/): resposta sem link da documentação é palpite.
 
 ---
 
@@ -158,6 +165,8 @@ O checklist detalhado, semana a semana, está em [`00 - Guia de Estudo/02 - Tril
 - [Exam Guide (PDF)](https://www.databricks.com/sites/default/files/2026-10/Databricks-Certified-Data-Engineer-Associate-Exam-Guide-August-2026.pdf)
 - [Registo para Exame](http://webassessor.com/databricks)
 - [Databricks Academy](https://www.databricks.com/learn/training/login)
+- [Documentação oficial Databricks](https://docs.databricks.com/) (fonte principal para validar respostas da IA)
+- [Databricks Free Edition](https://www.databricks.com/learn/free-edition) (workspace gratuito para os laboratórios)
 - [Documentação Azure Databricks](https://learn.microsoft.com/pt-pt/azure/databricks/)
 - [FAQ da Certificação](https://www.databricks.com/learn/certification/faq)
 
