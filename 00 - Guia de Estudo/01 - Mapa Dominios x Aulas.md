@@ -91,4 +91,7 @@ Legenda: ✅ coberto pelo curso · 🟡 parcial · ❌ não coberto (estudar pel
 | Databricks Asset Bundles (DABs) | Declarative Automation Bundles |
 | `APPLY CHANGES INTO` | `AUTO CDC INTO` (a sintaxe antiga ainda funciona) |
 
+> Tabela completa (com Git folders, CLI, Lakeflow Connect, volumes, Liquid Clustering e outros) e como usá-la com a IA: [`03 - Preparacao com IA`](03%20-%20Preparacao%20com%20IA.md) (Passo 3).
+> Laboratórios práticos por domínio: [`04 - Laboratorios Hands-on`](04%20-%20Laboratorios%20Hands-on.md).
+
 > Este mapa é atualizado a cada aula nova adicionada ao repositório.
